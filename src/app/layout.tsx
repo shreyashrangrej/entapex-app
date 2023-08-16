@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <main className="flex min-h-screen flex-col items-center justify-between">
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <div className="absolute top-0 right-0 p-4">
+            <div className="absolute bottom-0 right-0 p-4">
               <ModeToggle />
             </div>
             {children}
