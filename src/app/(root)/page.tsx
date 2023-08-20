@@ -29,12 +29,20 @@ export default async function Home() {
           ) : (
             <>
               <h2 className="text-xl mb-8">User not Logged In</h2>
-              <Link href="/login">
-                <Button>
-                  <Icons.login className="mr-2 h-4 w-4" />
-                  Login
-                </Button>
-              </Link>
+              <div className="flex gap-4">
+                <Link href="/public">
+                  <Button>Public</Button>
+                </Link>
+                <Link href="/protected">
+                  <Button>Protected</Button>
+                </Link>
+                <Link href="/login">
+                  <Button>
+                    <Icons.login className="mr-2 h-4 w-4" />
+                    Login
+                  </Button>
+                </Link>
+              </div>
             </>
           )}
         </div>
