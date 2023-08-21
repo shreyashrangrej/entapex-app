@@ -8,7 +8,8 @@ export default async function Home() {
         <div className="text-center">
           <h1 className="text-3xl font-semibold">Protected Page</h1>
           <p className="text-gray-600">
-            Hello, {user?.email} are able visit this page because you are signed in.
+            Hello, {user?.email}. You are able visit this page because you are
+            signed in.
           </p>
         </div>
       </div>
