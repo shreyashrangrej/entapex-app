@@ -34,3 +34,4 @@ next-env.d.ts
 # other
 actual_env.txt
 example_env.txt
+.env.local
